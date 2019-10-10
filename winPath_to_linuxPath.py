@@ -13,6 +13,8 @@ def main():
     import pyperclip
     clipboardTXT = pyperclip.paste() + "clipped"
     pyperclip.copy(clipboardTXT)
+    pyperclip.paste()
+
 
 if __name__ == '__main__':
     main()
