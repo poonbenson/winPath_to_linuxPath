@@ -14,6 +14,9 @@ def main():
     clipboardTXT = pyperclip.paste()
     clipboardTXT = clipboardTXT.replace('\\', '/')
     pyperclip.copy(clipboardTXT)
+    '''
+    done
+    '''
 
 
 if __name__ == '__main__':
